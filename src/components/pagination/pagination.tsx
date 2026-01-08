@@ -16,7 +16,7 @@ const Pagination = () => {
         `https://jsonplaceholder.typicode.com/posts?_page=${page}&_limit=10`
       );
       const data = await response.json();
-      console.log(data);
+      // console.log(data);
       if (data && data.length) {
         setPosts(data);
       }
