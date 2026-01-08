@@ -9,6 +9,7 @@ import QrCodeGenerator from "./components/qrcodegenerator/qrcodegenerator"
 import RandomColorGenerator from "./components/randomclrgenerator"
 import AutoComplete from "./components/serachautocomplete/ac"
 import StarRating from "./components/starrating"
+import TicTacToe from "./components/tictactoe/tictactoe"
 import TreeView from "./components/treeview/treeview"
 
 
@@ -28,6 +29,7 @@ function App() {
     <CustomTabs/>
     <ProfileFinder/>
     <AutoComplete/>
+    <TicTacToe/>
     </div>
     
   )
